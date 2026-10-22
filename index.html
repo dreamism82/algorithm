@@ -243,5 +243,6 @@ document.querySelectorAll('.tab').forEach((tab,i,tabs)=>{tab.addEventListener('c
 $('runBtn').addEventListener('click',autoRun);$('stepBtn').addEventListener('click',oneStep);$('resetBtn').addEventListener('click',()=>{reset(true);effect('reset');});$('soundToggle').addEventListener('click',toggleSound);if(!sound.supported){$('soundToggle').disabled=true;$('soundToggle').textContent='🔇 효과음 미지원';}
 initTiles();selectMode('sequence');
 </script>
+  
 </body>
 </html>
